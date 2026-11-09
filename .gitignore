@@ -1,0 +1,16 @@
+# data and model artefacts (large) - regenerate with the commands in the README
+data/
+checkpoints/
+*.npz
+*.ndjson
+*.pt
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# keep the results folder (plots + metrics) in git
+!results/
